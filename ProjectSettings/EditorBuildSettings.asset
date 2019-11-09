@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 795e5a245a2047e4bad55f722761ae81
   - enabled: 1
-    path: Assets/Scenes/Emmanuel.unity
-    guid: 9981fb44f9c0349429d71051cdc6c987
+    path: Assets/Scenes/emmanuel-rework.unity
+    guid: 4a71bba183869cc4cba261fcf48fd8e8
   m_configObjects: {}
