@@ -13,6 +13,7 @@ public class BasicMovementBehaviour : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Physics.gravity = new Vector3(0, -20, 0);
     }
     
     void Update()
