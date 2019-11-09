@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.UIElements;
+﻿using System.Collections;
 using UnityEngine;
 
 public class BasicMovementBehaviour : MonoBehaviour
@@ -16,6 +13,7 @@ public class BasicMovementBehaviour : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Physics.gravity = new Vector3(0, -20, 0);
     }
     
     void Update()
