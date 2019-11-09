@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8349896708493542602}
   - component: {fileID: 8349896708490151146}
   - component: {fileID: 8349896708491249194}
-  - component: {fileID: 3940647059794674397}
+  - component: {fileID: 5401190639838584505}
   m_Layer: 0
   m_Name: Rock_04
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3940647059794674397
+--- !u!65 &5401190639838584505
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,5 +89,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.7091668, y: 3.101778, z: 3.7091672}
-  m_Center: {x: 0.0846082, y: -0.5208884, z: -0.19357169}
+  m_Size: {x: 3.7091665, y: 3.1017778, z: 3.709167}
+  m_Center: {x: 0.08460819, y: -0.5208883, z: -0.19357167}
