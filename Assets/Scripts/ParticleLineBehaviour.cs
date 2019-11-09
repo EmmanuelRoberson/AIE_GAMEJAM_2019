@@ -1,23 +1,30 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class ParticleLineBehaviour : MonoBehaviour
 {
     public Transform originPoint;
 
-    public Transform destinationPoint;
-
     private ParticleSystem ps;
+    public Transform destinationPoint;
+    
     // Start is called before the first frame update
     void Start()
     {
+
         ps = GetComponent<ParticleSystem>();
-        
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (destinationPoint == null)
+        {
+            Destroy(ps.gameObject);
+        }
         
         transform.position = originPoint.position;
         transform.LookAt(destinationPoint);

@@ -9,6 +9,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BasicMovementBehaviour.cs" t="Include" />
+          <e p="DestroyOnPlayerEnter.cs" t="Include" />
           <e p="DirectionalCompassBehaviour.cs" t="Include" />
           <e p="Event System" t="Include">
             <e p="Event.cs" t="Include" />
@@ -20,6 +21,7 @@
           <e p="LocatorBehaviour.cs" t="Include" />
           <e p="ParticleLineBehaviour.cs" t="Include" />
           <e p="ThirdPersonCameraBehaviour.cs" t="Include" />
+          <e p="TupleClass.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
