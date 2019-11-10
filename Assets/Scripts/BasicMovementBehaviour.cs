@@ -9,11 +9,14 @@ public class BasicMovementBehaviour : MonoBehaviour
     public float jumpForce;
     private bool canJump;
 
+    private Vector3 resetTrans;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0, -20, 0);
+        resetTrans = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
     
     void Update()
@@ -54,6 +57,12 @@ public class BasicMovementBehaviour : MonoBehaviour
             Debug.Log("Touching ground");
             canJump = true;
         }
+
+        if (other.gameObject.CompareTag("death"))
+        {
+            transform.position = resetTrans;
+        }
+        
     }
     
     

@@ -32,4 +32,15 @@ public class ParticleLineBehaviour : MonoBehaviour
         var main = ps.main;
         main.startSpeed = Math.Abs(Vector3.Distance(this.transform.position, destinationPoint.position))/ps.main.duration;
     }
+
+    void Hide()
+    {
+        gameObject.active = false;
+    }
+
+    void Show()
+    {
+        gameObject.active = true;
+    }
+    
 }
