@@ -2,9 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
+using Random = System.Random;
 
 public class DestroyOnPlayerEnter : MonoBehaviour
 {
+
+    public Light dl;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +23,15 @@ public class DestroyOnPlayerEnter : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            GetComponent<Animator>().SetTrigger("Jitter");
-        }
-        
+        Random r = new Random();
+        dl.intensity += 0.1f;
+
+
+
+        var tt = other.gameObject.GetComponent<BasicMovementBehaviour>();
+        tt.resetTrans = this.transform.position;
         Destroy(gameObject);
+
     }
 
 }

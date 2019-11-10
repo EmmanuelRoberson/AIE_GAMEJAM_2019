@@ -10,7 +10,7 @@ public class BasicMovementBehaviour : MonoBehaviour
     public float jumpForce;
     private bool canJump;
 
-    private Vector3 resetTrans;
+    public Vector3 resetTrans;
     
     public float particleCountDown;
     
@@ -197,6 +197,10 @@ public class BasicMovementBehaviour : MonoBehaviour
             animator.SetTrigger("jump");
             rb.AddForce(-Physics.gravity.normalized * jumpForce);
             canJump = false;
+
+            var grunt = GetComponent<AudioSource>();
+            grunt.Play();
+            
             yield return jumpForce;
         }
     }
