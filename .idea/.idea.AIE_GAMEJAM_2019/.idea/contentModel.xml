@@ -11,6 +11,7 @@
           <e p="BasicMovementBehaviour.cs" t="Include" />
           <e p="DestroyOnPlayerEnter.cs" t="Include" />
           <e p="DirectionalCompassBehaviour.cs" t="Include" />
+          <e p="EndGameBehaviour.cs" t="Include" />
           <e p="Event System" t="Include">
             <e p="Event.cs" t="Include" />
             <e p="EventListener.cs" t="Include" />

@@ -79,13 +79,11 @@ public class BasicMovementBehaviour : MonoBehaviour
         
         if (canShowParticles)
         {
-            Debug.Log("Can show particles:: " + canShowParticles);
             if (particleUses > 0)
             {
                 if (Input.GetKey(KeyCode.Mouse0))
                 {
                     canShowParticles = false;
-                    Debug.Log("Click Recieved");
                     particleUses -= 1;
                     ShowParticles();
                     decrementText.Raise();
@@ -140,7 +138,7 @@ public class BasicMovementBehaviour : MonoBehaviour
             StartCoroutine("Jump");
         }
 
-        if (inputTimer > 0)
+        if (inputTimer > 0 && isColliding)
         {
             animator.SetBool("idle bool", true);
         }

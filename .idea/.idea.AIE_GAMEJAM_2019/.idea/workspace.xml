@@ -5,11 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AIE_GAMEJAM_2019/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIE_GAMEJAM_2019/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AIE_GAMEJAM_2019/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AIE_GAMEJAM_2019/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AnimatedPersonIthink/Jamp@anim.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimatedPersonIthink/Jamp@anim.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnimatedPersonIthink/PersonAnimation.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnimatedPersonIthink/PersonAnimation.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TaylorGiarrusso_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TaylorGiarrusso_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/emmanuel-rework.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/emmanuel-rework.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BasicMovementBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BasicMovementBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParticleLineBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParticleLineBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event System/EventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Event System/IListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndGameBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ThirdPersonCameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LocatorBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleLineBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndGameBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BasicMovementBehaviour.cs" />
       </list>
     </option>
