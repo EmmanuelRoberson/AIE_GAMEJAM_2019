@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\s188038\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\s188038\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_AIE_GAMEJAM_2019.744277795.00" t="ExcludeRecursive" />
+    <e p="C:\Users\s188038\Documents\Unity\Git\AIE_GAMEJAM_2019" t="IncludeRecursive">
+      <e p="AIE_GAMEJAM_2019.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="BasicMovementBehaviour.cs" t="Include" />
+          <e p="DirectionalCompassBehaviour.cs" t="Include" />
+          <e p="Event System" t="Include">
+            <e p="Event.cs" t="Include" />
+            <e p="EventListener.cs" t="Include" />
+            <e p="IListener.cs" t="Include" />
+          </e>
+          <e p="GlobalGravityChangerBehaviour.cs" t="Include" />
+          <e p="HotSpopBehaviour.cs" t="Include" />
+          <e p="LocatorBehaviour.cs" t="Include" />
+          <e p="ParticleLineBehaviour.cs" t="Include" />
+          <e p="ThirdPersonCameraBehaviour.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
