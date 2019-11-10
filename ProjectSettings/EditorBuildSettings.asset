@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/emmanuel-rework.unity
     guid: 4a71bba183869cc4cba261fcf48fd8e8
+  - enabled: 1
+    path: Assets/Scenes/game ova.unity
+    guid: 865104967033ef346b6d0cc48345a14a
   m_configObjects: {}
