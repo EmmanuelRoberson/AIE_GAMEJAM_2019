@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.UIElements;
+﻿using System.Collections;
 using UnityEngine;
 
 public class BasicMovementBehaviour : MonoBehaviour
@@ -12,10 +9,23 @@ public class BasicMovementBehaviour : MonoBehaviour
     public float jumpForce;
     private bool canJump;
 
+    private Vector3 resetTrans;
+    
+    public float particleCountDown;
+
+    [SerializeField]
+    public Event_System.Event showAllParticles;
+    
+    [SerializeField]
+    public Event_System.Event hideAllParticles;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Physics.gravity = new Vector3(0, -20, 0);
+        resetTrans = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+        particleCountDown = 0;
     }
     
     void Update()
@@ -47,6 +57,9 @@ public class BasicMovementBehaviour : MonoBehaviour
         {
             StartCoroutine("Jump");
         }
+        
+        particleCountDown += Time.deltaTime;
+        
     }
 
     private void OnCollisionStay(Collision other)
@@ -56,6 +69,12 @@ public class BasicMovementBehaviour : MonoBehaviour
             Debug.Log("Touching ground");
             canJump = true;
         }
+
+        if (other.gameObject.CompareTag("death"))
+        {
+            transform.position = resetTrans;
+        }
+        
     }
     
     
@@ -69,8 +88,20 @@ public class BasicMovementBehaviour : MonoBehaviour
             yield return jumpForce;
         }
     }
+
+    IEnumerator HideToShow()
+    {
+        if (particleCountDown >= 2)
+        {
+            
+        }
+        
+        
+        yield return 0;
+    }
     
-    
+
+
 }
 
 
